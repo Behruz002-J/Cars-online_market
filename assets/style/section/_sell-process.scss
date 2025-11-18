@@ -1,0 +1,42 @@
+.sell-process {
+border: 1px solid green;
+opacity: 1;
+position: relative;
+
+.container {
+        width: 1445px;
+        height: 724px;
+        margin: 150px auto;
+}
+&__title {
+     padding: 120px 240px;
+     h2 {
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+line-height: 69px;
+letter-spacing: 0%;
+color: $secondary-color;
+     } 
+}
+&__cards {
+    display: flex;
+    gap: 70px;
+}
+&__card {
+    display: flex;
+    width: 321px;
+    height: 229px;
+    border: 1px solid blue;
+}
+&__line {
+align-items: center;
+display: flex;
+gap: 32px;
+}
+&__middle-line {
+position: absolute;
+bottom:245px;
+}
+}
