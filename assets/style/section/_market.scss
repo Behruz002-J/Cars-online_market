@@ -1,0 +1,94 @@
+.car-market {
+    width: 1440px;
+height: 865px;
+opacity: 1;
+border: 1px solid red;
+.container {
+    margin: 0 265px;
+}
+&__title {
+    h2 {
+        font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+line-height: 69px;
+letter-spacing: 0%;
+
+    }
+}
+&__cards {
+    margin-top: 32px;
+    display: flex;
+}
+&__card {
+    width: 461px;
+height: 764px;
+opacity: 1;
+border: 1px solid blue;
+ img {
+        width: 431px;
+height: 270px;
+opacity: 1;
+top: 3001px;
+left: 745px;
+opacity: 1;
+    padding: 15px 15px 24px 15px;
+    border-radius: 16px;
+    }
+}
+&__character {
+    margin-top: 16px;
+}
+&__speed {
+    display: flex;
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
+&__year {
+    display: flex;
+        font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+}
+&__fuel {
+    display: flex;
+        font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+}
+&__motor {
+    display: flex;
+        font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+}
+&__form {
+    display: flex;
+        font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+p {
+}
+span {
+    color: $secondary-color;
+}
+}
+}
