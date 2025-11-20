@@ -1,0 +1,86 @@
+.company-map {
+    max-width: 1461px;
+
+    .container {
+        margin: 100px auto;
+    }
+    
+    &__titles {
+        display: flex;
+        gap: 28px;
+margin-left: 240px;
+    }
+    &__contact {
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+line-height: 69px;
+margin-left: 240px;
+letter-spacing: 0%;
+
+    }
+ &__map {
+    width: 706px;
+height: 498px;
+opacity: 1;
+border: 7px solid #FA002C33;
+margin-top: 32px;
+border-radius: 36px;
+position: relative;
+img {
+    padding: 24px 24px;
+}
+ }   
+&__google-location img{
+    position: absolute;
+    top: 130px;
+    left: 299px;    
+    border-radius:100px;
+    background: #f2aeb7;
+    padding: 27px 27px;
+}
+ &__name span {
+font-family: Montserrat;
+font-weight: 500;
+font-style: Medium;
+font-size: 30px;
+line-height: 100%;
+margin-left: 48px;
+letter-spacing: 0%;
+margin-top: 34px;
+
+ }
+  &__name a {
+    text-decoration: none;
+    margin-left: 113px;
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 30px;
+margin-top: 34px;
+line-height: 100%;
+letter-spacing: 0%;
+    color: $secondary-color;
+  }
+  &__street p {
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0%;
+ }
+   &__location {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    gap: 10px;
+    img {
+   width: 10%;
+height: auto;
+// margin-bottom: 25px;
+opacity: 1;
+}
+   }
+}

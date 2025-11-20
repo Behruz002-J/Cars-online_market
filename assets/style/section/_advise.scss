@@ -1,0 +1,53 @@
+.advise {
+    width: 1461px;
+height: 533px;
+background-image:url("/assets/images/hyundai-motor-group-8kcsgLDAETg-unsplash\ 5.png") ;
+border: 1px solid red;
+opacity: 1;
+border: 7px solid #E7E7E7;
+border-radius: 36px;
+margin-left: 200px;
+
+.container {
+    margin: 50px auto;
+}
+&__title {
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+line-height: 69px;
+letter-spacing: 0%;
+padding: 63px 470px 24px 65px;
+}
+&--red  {
+    color: $primary-color;
+}
+p {
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+color: antiquewhite;
+padding: 0 460px 50px 65px;
+}
+
+button {
+padding: 26px 44px;
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+background-color: $primary-color;
+color: #FFFFFF;
+border: none;
+box-shadow: 0px 12px 60px 0px #FA002C66;
+border-radius: 14px;
+margin-left: 72px;
+}
+}
