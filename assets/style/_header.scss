@@ -57,6 +57,9 @@ letter-spacing: 0%;
 text-align: center;
 
  }
+  &__button a:hover {
+    background-color: rgb(126, 71, 71);
+}   
 }
 }
 .hero {
@@ -121,6 +124,7 @@ color: #FFFFFF;
 border: none;
 margin-left: 50px;
         }
+
     }
     &__right-image img {
        width: clamp(1500px,40vw,2000px);
@@ -129,6 +133,10 @@ margin-left: 50px;
     //   left: 600px;
       right: 190px;
     bottom: -200px;
-      //   background: linear-gradient(89.85deg, #000000 3.61%, rgba(0, 0, 0, 0) 94.97%);
+        // background: linear-gradient(89.85deg, #000000 3.61%, rgba(0, 0, 0, 0) 94.97%);
     }
+    &__list a:hover {
+    color: red;
 }
+}
+       

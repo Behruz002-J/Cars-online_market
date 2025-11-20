@@ -42,26 +42,42 @@ margin-top: 42px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     min-height: 260px;
     display: flex;
-    align-items: flex-end;
 
   }
 
   &__text {
     span {
       font-size: 22px;
-      font-weight: 700;
-      display: block;
+      // display: block;
+      padding-bottom: 30px;
+      font-family: Montserrat;
+font-style: SemiBold;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+
     }
 
     p {
       opacity: 0.7;
       font-size: 14px;
+      font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+line-height: 26px;
+letter-spacing: 0%;
+padding-top: 16px;
       line-height: 1.4;
     }
 
     h2 {
-      font-size: 32px;
-      font-weight: 800;
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+align-items: flex-end;
     }
 
     &.white span,
@@ -72,7 +88,7 @@ margin-top: 42px;
   }
 
   &__car-expenses--image {
-    background-image: url(/assets/images/Kia-Mohave-8-1\ 1.png);
+    background-image: url('/assets/images/Kia-Mohave-8-11.png');
     background-position: center;
     color: #fff;
     overflow: hidden;

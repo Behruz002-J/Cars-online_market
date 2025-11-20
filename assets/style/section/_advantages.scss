@@ -98,3 +98,31 @@ letter-spacing: 0%;
     border: 1px solid  #ff002b;
 }
 }
+@media (max-width: 480px) {
+
+  .car-advantages {
+    padding: 25px 0;
+  }
+
+  .car-advantages__title-main {
+    font-size: 22px;
+    flex-direction: column;
+  }
+
+  .car-advantages__example {
+    padding: 15px;
+  }
+
+  .car-advantages__example h5 {
+    font-size: 18px;
+  }
+
+  .car-advantages__example p {
+    font-size: 14px;
+  }
+
+  .car-advantages__arrows img {
+    width: 38px;
+    height: 38px;
+  }
+}
